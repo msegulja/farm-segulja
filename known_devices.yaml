@@ -1,10 +1,9 @@
-
 phonemichael:
   hide_if_away: false
   icon:
   mac: 20:EE:28:5D:F0:93
-  name: phone-michael
-  picture:
+  name: MICHAEL
+  picture: /local/sgi_o2.jpg
   track: true
   vendor: Apple, Inc.
 
@@ -138,7 +137,7 @@ guygoodgsiphone:
   hide_if_away: false
   icon:
   mac: FC:E9:98:E2:2B:EE
-  name: GuyGoodgsiPhone
+  name: GUY
   picture:
   track: true
   vendor: Apple, Inc.
@@ -156,8 +155,8 @@ jennifersiphone:
   hide_if_away: false
   icon:
   mac: 40:CB:C0:49:05:51
-  name: JennifersiPhone
-  picture:
+  name: JENNIFER
+  picture: /local/jennifer_headshot.jpg
   track: true
   vendor: Apple, Inc.
 
@@ -170,7 +169,7 @@ androide1a4a7467208bc82:
   track: true
   vendor: Motorola Mobility LLC, a Lenovo Company
 
-aragorn2_2:
+aragorn2:
   hide_if_away: false
   icon:
   mac: D0:81:7A:BC:D5:EE
