@@ -121,7 +121,7 @@ d8a25e0fcba0:
   mac: D8:A2:5E:0F:CB:A0
   name: d8a25e0fcba0
   picture:
-  track: true
+  track: false
   vendor: unknown
 
 guygoodgsiphone:
@@ -139,7 +139,7 @@ guygoodgsiphone:
   mac: 30:14:4A:4A:F8:F3
   name: 30144a4af8f3
   picture:
-  track: true
+  track: false
   vendor: Wistron Neweb Corporation
 
 jennifersiphone:
