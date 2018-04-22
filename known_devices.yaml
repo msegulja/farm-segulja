@@ -61,20 +61,11 @@ ipad:
   track: false
   vendor: Apple, Inc.
 
-samsungsmt377v:
-  hide_if_away: false
-  icon:
-  mac: 24:92:0E:D7:BD:30
-  name: SAMSUNG-SM-T377V
-  picture:
-  track: false
-  vendor: Samsung Electronics Co.,Ltd
-
 samsungsmn920v:
   hide_if_away: false
   icon:
   mac: FC:DB:B3:68:77:D7
-  name: phone-bob
+  name: BOB
   picture:
   track: true
   vendor: unknown
