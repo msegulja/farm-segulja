@@ -26,24 +26,6 @@ appletv:
   track: false
   vendor: Apple, Inc.
 
-aragorn2:
-  hide_if_away: false
-  icon:
-  mac: 30:52:CB:72:09:47
-  name: aragorn2
-  picture:
-  track: false
-  vendor: Liteon Technology Corporation
-
-lt3031102:
-  hide_if_away: false
-  icon:
-  mac: CC:3D:82:C1:3F:4F
-  name: LT3031102
-  picture:
-  track: false
-  vendor: Intel Corporate
-
 michaelplewatch:
   hide_if_away: false
   icon:
@@ -113,7 +95,7 @@ chrissipad:
   mac: 04:E5:36:21:F2:FE
   name: Chriss-iPad
   picture:
-  track: true
+  track: false
   vendor: Apple, Inc.
 
 android35b97111248f0abf:
@@ -131,7 +113,7 @@ hp07eb58:
   mac: 00:1C:C4:07:EB:59
   name: HP07EB58
   picture:
-  track: true
+  track: false
   vendor: Hewlett Packard
 
 galaxytabs2:
@@ -140,7 +122,7 @@ galaxytabs2:
   mac: B4:74:43:30:81:CF
   name: Galaxy-Tab-S2
   picture:
-  track: true
+  track: false
   vendor: Samsung Electronics Co.,Ltd
 
 d8a25e0fcba0:
@@ -194,7 +176,7 @@ aragorn2_2:
   mac: D0:81:7A:BC:D5:EE
   name: aragorn2
   picture:
-  track: true
+  track: false
   vendor: Apple, Inc.
 
 jennifeplewatch:
@@ -203,5 +185,5 @@ jennifeplewatch:
   mac: 00:DB:70:38:09:45
   name: JennifepleWatch
   picture:
-  track: true
+  track: false
   vendor: Apple, Inc.
