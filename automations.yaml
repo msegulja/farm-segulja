@@ -1,0 +1,129 @@
+- action:
+  - data:
+      entity_id: light.front_porch_light_level
+    service: light.turn_on
+  - data:
+      entity_id: light.tv_stand_lamp_level
+    service: light.turn_on
+  - data:
+      entity_id: light.living_room_lamp_level
+    service: light.turn_on
+  alias: 'Lighting :: Lights -- ON at SUNSET'
+  condition: []
+  id: '1517416028935'
+  trigger:
+  - event: sunset
+    platform: sun
+- action:
+  - data:
+      entity_id: light.tv_stand_lamp_level
+    service: light.turn_off
+  - data:
+      entity_id: light.living_room_lamp_level
+    service: light.turn_off
+  alias: 'Leave :: Michael -- HOME'
+  condition: []
+  id: '1517444352696'
+  trigger:
+  - entity_id: device_tracker.phonemichael
+    from: home
+    platform: state
+    to: not_home
+- action:
+  - data:
+      brightness_pct: '100'
+      entity_id: light.tv_stand_lamp_level
+    service: light.turn_on
+  - data:
+      brightness_pct: '100'
+      entity_id: light.living_room_lamp_level
+    service: light.turn_on
+  alias: 'Arrive :: HOME -- Michael'
+  condition: []
+  id: '1517444463327'
+  trigger:
+  - entity_id: device_tracker.phonemichael
+    from: not_home
+    platform: state
+    to: home
+- action:
+  - data:
+      entity_id: input_select.presence
+      option: Away
+    service: input_select.select_option
+  alias: 'Presence:: UNOCCUPIED'
+  condition: []
+  id: '1517503307027'
+  trigger:
+  - entity_id: device_tracker.phonemichael
+    from: home
+    platform: state
+    to: not_home
+- action:
+  - data:
+      entity_id: input_select.presence
+      option: Home
+    service: input_select.select_option
+  alias: 'Presence:: OCCUPIED'
+  condition: []
+  id: '1517503431585'
+  trigger:
+  - entity_id: device_tracker.phonemichael
+    from: not_home
+    platform: state
+    to: home
+- action:
+  - data:
+      entity_id: input_select.house_mode
+      option: 'Evening:'
+    service: input_select.select_option
+  alias: 'House Mode :: EVENING'
+  condition: []
+  id: '1517513238993'
+  trigger:
+  - at: '17:00:00'
+    platform: time
+- action:
+  - data:
+      entity_id: input_select.house_mode
+      option: Night
+    service: input_select.select_option
+  alias: 'House Mode :: NIGHT'
+  condition: []
+  id: '1517513333589'
+  trigger:
+  - at: '21:00:00'
+    platform: time
+- action:
+  - data:
+      entity_id: input_select.house_mode
+      option: Morning
+    service: input_select.select_option
+  alias: 'House Mode :: MORNING'
+  condition: []
+  id: '1517516462252'
+  trigger:
+  - at: 06:00:00
+    platform: time
+- action:
+  - data:
+      entity_id: input_select.house_mode
+      option: Day
+    service: input_select.select_option
+  alias: 'House Mode :: DAY'
+  condition: []
+  id: '1517516523033'
+  trigger:
+  - at: '11:00:00'
+    platform: time
+- action:
+  - data:
+      entity_id: group.all_lights
+    service: light.turn_off
+  alias: 'House Mode :: BEDTIME'
+  condition: []
+  id: '1517516630338'
+  trigger:
+  - entity_id: input_select.house_mode
+    platform: state
+    to: Bedtime

@@ -1,0 +1,12 @@
+light.front_porch_light_level:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076299265
+light.tv_stand_lamp_level:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093076481
+light.living_room_lamp_level:
+  name:
+  platform: zwave
+  unique_id: 4-72057594109853697

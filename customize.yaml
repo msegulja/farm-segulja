@@ -1,0 +1,9 @@
+light.front_porch_light_level:
+  friendly_name: Front Porch Light
+  new_entity_id: light.front_porch_light
+light.tv_stand_lamp_level:
+  friendly_name: TV Stand Lamp
+  new_entity_id: light.tv_stand_lamp
+light.living_room_lamp_level:
+  friendly_name: Living Room Lamp
+  new_entity_id: light.living_room_lamp

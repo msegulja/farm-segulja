@@ -1,0 +1,207 @@
+
+phonemichael:
+  hide_if_away: false
+  icon:
+  mac: 20:EE:28:5D:F0:93
+  name: phone-michael
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+myrouterhome:
+  hide_if_away: false
+  icon:
+  mac: D0:84:B0:BD:D5:63
+  name: MyRouter.Home
+  picture:
+  track: false
+  vendor: Sagemcom Broadband SAS
+
+appletv:
+  hide_if_away: false
+  icon:
+  mac: 58:55:CA:4A:3D:15
+  name: Apple-TV
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+aragorn2:
+  hide_if_away: false
+  icon:
+  mac: 30:52:CB:72:09:47
+  name: aragorn2
+  picture:
+  track: false
+  vendor: Liteon Technology Corporation
+
+lt3031102:
+  hide_if_away: false
+  icon:
+  mac: CC:3D:82:C1:3F:4F
+  name: LT3031102
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+michaelplewatch:
+  hide_if_away: false
+  icon:
+  mac: B4:F6:1C:00:09:79
+  name: MichaelpleWatch
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+michaelsipad:
+  hide_if_away: false
+  icon:
+  mac: 84:89:AD:7B:BA:34
+  name: Michaels-iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+94444431f49d:
+  hide_if_away: false
+  icon:
+  mac: 94:44:44:31:F4:9D
+  name: 94444431f49d
+  picture:
+  track: false
+  vendor: unknown
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac: 10:40:F3:CB:E8:5D
+  name: iPad
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+samsungsmt377v:
+  hide_if_away: false
+  icon:
+  mac: 24:92:0E:D7:BD:30
+  name: SAMSUNG-SM-T377V
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+samsungsmn920v:
+  hide_if_away: false
+  icon:
+  mac: FC:DB:B3:68:77:D7
+  name: phone-bob
+  picture:
+  track: true
+  vendor: unknown
+
+desktoph15erg0:
+  hide_if_away: false
+  icon:
+  mac: 34:F3:9A:27:4F:CF
+  name: DESKTOP-H15ERG0
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+chrissipad:
+  hide_if_away: false
+  icon:
+  mac: 04:E5:36:21:F2:FE
+  name: Chriss-iPad
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+android35b97111248f0abf:
+  hide_if_away: false
+  icon:
+  mac: FC:C2:DE:4E:94:5D
+  name: android-35b97111248f0abf
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+hp07eb58:
+  hide_if_away: false
+  icon:
+  mac: 00:1C:C4:07:EB:59
+  name: HP07EB58
+  picture:
+  track: true
+  vendor: Hewlett Packard
+
+galaxytabs2:
+  hide_if_away: false
+  icon:
+  mac: B4:74:43:30:81:CF
+  name: Galaxy-Tab-S2
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
+
+d8a25e0fcba0:
+  hide_if_away: false
+  icon:
+  mac: D8:A2:5E:0F:CB:A0
+  name: d8a25e0fcba0
+  picture:
+  track: true
+  vendor: unknown
+
+guygoodgsiphone:
+  hide_if_away: false
+  icon:
+  mac: FC:E9:98:E2:2B:EE
+  name: GuyGoodgsiPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+30144a4af8f3:
+  hide_if_away: false
+  icon:
+  mac: 30:14:4A:4A:F8:F3
+  name: 30144a4af8f3
+  picture:
+  track: true
+  vendor: Wistron Neweb Corporation
+
+jennifersiphone:
+  hide_if_away: false
+  icon:
+  mac: 40:CB:C0:49:05:51
+  name: JennifersiPhone
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+androide1a4a7467208bc82:
+  hide_if_away: false
+  icon:
+  mac: F0:D7:AA:33:45:15
+  name: android-e1a4a7467208bc82
+  picture:
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+aragorn2_2:
+  hide_if_away: false
+  icon:
+  mac: D0:81:7A:BC:D5:EE
+  name: aragorn2
+  picture:
+  track: true
+  vendor: Apple, Inc.
+
+jennifeplewatch:
+  hide_if_away: false
+  icon:
+  mac: 00:DB:70:38:09:45
+  name: JennifepleWatch
+  picture:
+  track: true
+  vendor: Apple, Inc.
